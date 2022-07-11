@@ -1,0 +1,14 @@
+Complete report (14.01.2022 21:22)
+Created by Bob(Farmer)
+
+State changed from InTransitionType to InProcessType
+Processed by Albert(Processor)
+
+State changed from InTransitionType to StoredType
+Stored by AlbertStorage(Storehouse) 4 day(s) at a temperature of 2 degree(s)
+
+State changed from InTransitionType to InTransitionType
+Delivered by AlbertDealer(Dealer)
+
+State changed from InTransitionType to SoldType
+Sold by Albert(Seller)

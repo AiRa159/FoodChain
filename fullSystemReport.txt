@@ -1,0 +1,62 @@
+Complete FoodChain transaction report (14.01.2022 21:22)
+Milk received by
+Name: Bob
+Type: Farmer
+Money: 30
+Margin: 20
+
+=========Payment=========
+Sender name: Albert
+Recipient name: Bob
+Total: 30
+Time: 14.01.2022 21:22
+
+Milk packed by
+Name: Albert
+Type: Processor
+Money: 190
+Margin: 15
+
+=========Payment=========
+Sender name: AlbertStorage
+Recipient name: Albert
+Total: 20
+Time: 14.01.2022 21:22
+
+Milk stored. Params: storage time = 4 day(s); temperature = 2 degree(s)
+ by
+Name: AlbertStorage
+Type: Storehouse
+Money: 495
+Margin: 10
+
+=========Payment=========
+Sender name: AlbertDealer
+Recipient name: AlbertStorage
+Total: 15
+Time: 14.01.2022 21:22
+
+Milk delivered by
+Name: AlbertDealer
+Type: Dealer
+Money: 120
+Margin: 20
+
+=========Payment=========
+Sender name: Albert
+Recipient name: AlbertDealer
+Total: 35
+Time: 14.01.2022 21:22
+
+Milk sold by
+Name: Albert
+Type: Seller
+Money: 95
+Margin: 10
+
+=========Payment=========
+Sender name: Sam
+Recipient name: Albert
+Total: 30
+Time: 14.01.2022 21:22
+
